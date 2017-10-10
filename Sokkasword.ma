@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Sokkasword.ma
-//Last modified: Tue, Oct 10, 2017 03:29:56 PM
+//Last modified: Tue, Oct 10, 2017 03:30:22 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
