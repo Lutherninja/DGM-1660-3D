@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Sokkasword.ma
-//Last modified: Tue, Oct 10, 2017 03:28:10 PM
+//Last modified: Tue, Oct 10, 2017 03:29:56 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,17 +13,17 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "B452B083-48A6-869F-19E0-80B79DE34569";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -12.529570961899827 3.6464250182829869 1.3111659461262035 ;
-	setAttr ".r" -type "double3" 0.26164727445558988 2071.4000000011024 -1.0170228488887608e-015 ;
+	setAttr ".t" -type "double3" -11.427982288061729 5.4575390994115898 0.9965686424769904 ;
+	setAttr ".r" -type "double3" -13.538352727768016 2073.8000000006869 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1121937F-410E-CF84-C220-10B8142516CC";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 12.279593748290234;
+	setAttr ".coi" 13.108837326990308;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -0.2321087121963501 2.1451480388641357 -0.0029256492853164673 ;
+	setAttr ".tp" -type "double3" 0.0011382678087662537 6.4751486915368712 0.062515344118184893 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
@@ -193,7 +193,7 @@ createNode mesh -n "HiltShape" -p "Hilt1";
 	setAttr -s 2 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.080475288326852024 0.50000005378387868 ;
+	setAttr ".pv" -type "double2" 0.049403256038203835 0.5000000239815563 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
