@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Ceilingrunner.ma
-//Last modified: Wed, Oct 25, 2017 12:24:13 PM
+//Last modified: Wed, Oct 25, 2017 12:45:13 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires -nodeType "StingrayPBS" "shaderFXPlugin" "1.0";
@@ -14,8 +14,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "D8C4B569-4A62-A1C1-3BF6-4F9A88D4CC1C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -18.947755347193279 -1.6198821833511809 4.3898450927418597 ;
-	setAttr ".r" -type "double3" 6.2616472703778623 -81.000000000001236 2.5414433774600078e-015 ;
+	setAttr ".t" -type "double3" -16.857398896391643 1.0607977998014726 14.940620961408516 ;
+	setAttr ".r" -type "double3" 6.2616472703657946 -48.600000000000442 1.2023656493396473e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F4877ACD-40DF-AC71-D9CF-929FFA3678D9";
 	setAttr -k off ".v" no;
